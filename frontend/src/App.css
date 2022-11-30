@@ -1,0 +1,32 @@
+.app { 
+  display: grid;
+  grid-template-columns: 4fr 10fr;
+  gap: .25rem;
+  margin: 2rem;
+}
+
+.config,
+.display,
+.controller { 
+  padding: 1em;
+  border-radius: 12px;
+}
+
+.config { 
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.config p:last-of-type { 
+  text-align: right;
+}
+
+.display { 
+
+}
+
+.config,
+.controller { 
+  background: #1f1f1f;
+}
